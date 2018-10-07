@@ -15,3 +15,11 @@
     （1）没有返回值的函数
     （2）没有初始化的全局变量
     （3）没有初始化值的形参
+4、qs.stringify() 和JSON.stringify()的区别
+  var a = {name:'hehe',age:10};
+
+  qs.stringify序列化结果如下
+  name=hehe&age=10
+
+  而JSON.stringify序列化结果如下：
+  "{"a":"hehe","age":10}"
